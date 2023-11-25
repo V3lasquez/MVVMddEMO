@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMddEMO.views.Operaciones">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="valor 1" FontSize="Title" Text="{Binding Valo1}"></Entry>
+            <Entry  Placeholder="cajd e texto 2" Text="{Binding Valo1}"></Entry>
+            <Label FontSize="Title" FontAttributes="Bold" Text="{Binding ResultadoSuma}"/>
+            <Button Text="Sumar" Background="white" Command="{Binding Sumar}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
